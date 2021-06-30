@@ -11,12 +11,14 @@ public class Email {
     private  int mailboxcapacity;
     private String alternativeemail;
     //to get first name and last name
+    
+    //private inc 
 
     public Email(String Firstname,String Lastname){
 
-        this.Firstname = Firstname;
-        this.Lastname = Lastname;
-        System.out.println("Email Created "+this.Firstname+" "+this.Lastname);
+        this.Firstname = Firstname;// this is string private first name
+        this.Lastname = Lastname; // this is string private first name
+        System.out.println("Email Created "+this.Firstname+" "+this.Lastname); // statement print of private inc 
         this.Department=setdepartment();
         System.out.println("DEPARTMENT "+this.Department);
 
